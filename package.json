@@ -2,10 +2,13 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/server.js",
+  "type": "module",
+  "main": "dist/server.ts",
   "scripts": {
    
-    "start:dev": "npx nodemon"
+    "start:dev": "npx nodemon",
+    "start": "node server.ts",
+    "dev": "nodemon server.ts"
   },
   "keywords": [],
   "author": "",
